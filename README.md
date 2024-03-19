@@ -6,6 +6,8 @@ if game.PlaceId == 2753915549 then
         W3 = true
     end
     
+_G.KOOK = true
+_G.AutoFarm = true
     function CheckQuest() 
         Level = game:GetService("Players").LocalPlayer.Data.Level.Value
         if W then
